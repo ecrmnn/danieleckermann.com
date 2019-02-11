@@ -1,0 +1,14 @@
+baseURL = "https://www.danieleckermann.com/"
+languageCode = "en-us"
+title = "Hi, I'm Daniel Eckermann"
+theme = "hugo-cactus-theme"
+
+[params]
+	name = "Daniel Eckermann"
+	description = "Partner & CTO at Sempro, open-sourcerer and passionate about development"
+	bio = "Partner & CTO at Sempro, open-sourcerer and passionate about development"
+	iconFont = "font-awesome"
+
+[social]
+    github   = "https://www.github.com/ecrmnn"
+    twitter  = "https://www.twitter.com/ecrmnn"
