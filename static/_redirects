@@ -1,2 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
 https://nostalgic-meninsky-cb3f27.netlify.com/* https://www.danieleckermann.com/:splat 301!
+
+# Blog
+blog/*  post/*
