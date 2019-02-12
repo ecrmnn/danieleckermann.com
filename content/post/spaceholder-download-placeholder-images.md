@@ -4,18 +4,6 @@ description = "Spaceholder makes it easy to download placeholder images when you
 date = "2016-02-27"
 +++
 
-<form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
 I've created a small npm module that makes it easy to download placeholder images from public domain sources.
 
 [See on Github](https://github.com/ecrmnn/spaceholder)
