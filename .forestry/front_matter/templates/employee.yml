@@ -1,4 +1,11 @@
 ---
 label: Employee
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+  description: Employee name
+  default: Daniel
