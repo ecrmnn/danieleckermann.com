@@ -1,4 +1,71 @@
 ---
 label: Test
 hide_body: true
-fields: []
+fields:
+- name: textfield
+  type: text
+  config:
+    required: false
+  label: TextField
+- name: tagsfield
+  type: tag_list
+  default: []
+  label: TagsField
+- name: sortablelist
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: SortableList
+- name: multifile
+  type: image_gallery
+  config: {}
+  label: MultiFile
+- name: fieldgroup
+  type: field_group
+  config: {}
+  fields:
+  - name: fieldgrouptextfield
+    type: text
+    config:
+      required: false
+    label: FieldGroupTextField
+  - name: subfieldgroup
+    type: field_group
+    config: {}
+    fields:
+    - name: subsubfieldgroup
+      type: field_group
+      config: {}
+      fields:
+      - name: subsubfieldgrouptextfield
+        type: text
+        config:
+          required: false
+        label: SubSubFieldGroupTextField
+      label: SubSubFieldGroup
+    label: SubFieldGroup
+  label: FieldGroup
+- name: repeatablefieldgroup
+  type: field_group_list
+  fields:
+  - name: rf-textfield
+    type: text
+    config:
+      required: false
+    label: RF-TextField
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: RepeatableFieldGroup
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
