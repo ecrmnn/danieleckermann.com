@@ -1,19 +1,29 @@
+---
 backend:
   name: git-gateway
-
-media_folder: "static/images/uploads"
+media_folder: static/images/uploads
 public_folder: "/images/uploads"
-
 collections:
-  - name: "posts"
-    label: "Post"
-    folder: "content/post"
-    create: true
-    filter:
-      field: language
-      value: en
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+- name: posts
+  label: Post
+  folder: content/post
+  create: true
+  filter:
+    field: language
+    value: en
+  fields:
+  - label: ''
+    name: ''
+    widget: ''
+  - label: Title
+    name: title
+    widget: string
+  - label: Description
+    name: description
+    widget: string
+  - label: Publish Date
+    name: date
+    widget: datetime
+  - label: Body
+    name: body
+    widget: markdown
