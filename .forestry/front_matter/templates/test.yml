@@ -69,3 +69,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- draft.md
