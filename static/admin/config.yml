@@ -9,7 +9,10 @@ collections:
   folder: ''
   create: false
   filter: ''
-  fields: ''
+  fields:
+  - label: ''
+    name: ''
+    widget: ''
 - name: posts
   label: Post
   folder: content/post
