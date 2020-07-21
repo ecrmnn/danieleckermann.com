@@ -7,7 +7,7 @@ collections:
 - name: ''
   label: ''
   folder: ''
-  create: ''
+  create: false
   filter: ''
   fields: ''
 - name: posts
