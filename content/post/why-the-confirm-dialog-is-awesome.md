@@ -1,7 +1,6 @@
 +++
 date = 2021-09-08T22:00:00Z
 description = "The perfect confirmation dialog is already built into your browser"
-draft = true
 title = "Why the confirm dialog is awesome"
 
 +++
