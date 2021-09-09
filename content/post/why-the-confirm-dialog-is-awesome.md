@@ -29,7 +29,7 @@ methods: {
 Finally here’s an example using `onsubmit` on a simple HTML form.
 ```html
 <form action="..." onsubmit="return confirm('Proceed?');">
-    <button type=”submit”>Submit</button>
+    <button type="submit">Submit</button>
 </form>
 ```
 
