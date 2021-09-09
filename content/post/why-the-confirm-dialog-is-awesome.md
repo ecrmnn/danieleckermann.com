@@ -8,7 +8,7 @@ You've probably encountered this hundreds of times. You’re building an app and
 
 Maybe you’re building an SPA with Vue or React - or maybe vanilla JavaScript. You search endlessly trying to find the right npm package. They all seem too complex with too much overhead. You want something simple, that won’t stop working when you some day in the future update your framework.
 
-I’ve been here and I’ve searched for the perfect package over and over. What I didn’t realize was that it was built into my browser all along.
+I’ve been there so many times, searching for the perfect package. What I didn’t realize was that it was built into my browser all along.
 
 Here’s an example of `confirm` dialog using onclick on a plain link.
 ```html
