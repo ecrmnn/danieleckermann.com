@@ -3,8 +3,8 @@ languageCode = "en-us"
 theme = "hugo-cactus-theme"
 title = "Hi, I'm Daniel Eckermann"
 [params]
-bio = "Partner & CTO at Sempro, open-sourcerer and passionate about development"
-description = "Partner & CTO at Sempro, open-sourcerer and passionate about development"
+bio = "Partner & CTO at s360 Norway, open-sourcerer and passionate about development"
+description = "Partner & CTO at s360 Norway, open-sourcerer and passionate about development"
 iconFont = "font-awesome"
 name = "Daniel Eckermann"
 [social]
