@@ -19,7 +19,7 @@ Here’s an example of using the `confirm` dialog in Vue 2. The action within th
 ```js
 methods: {
   removeItem(index) {
-    if (window.confirm('Confirm deletion’)) {
+    if (window.confirm('Confirm deletion')) {
         this.items.splice(index, 1);
     }
   },
