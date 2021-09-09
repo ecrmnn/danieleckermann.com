@@ -11,5 +11,7 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    export_format: YYYY-MM-DD
 pages:
 - content/post/why-the-confirm-dialog-is-awesome.md
