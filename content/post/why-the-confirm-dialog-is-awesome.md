@@ -10,13 +10,13 @@ Maybe you’re building an SPA with Vue or React - or maybe vanilla JavaScript. 
 
 I’ve been there so many times, searching for the perfect package. What I didn’t realize was that it was built into my browser all along.
 
-### Why it's awesome
+## Why it's awesome
 - Browser support / Built in
 - Does not require bundling
 - No added dependencies
 - No stryling required
 
-### Examples
+## Examples
 Here’s an example of `confirm` dialog using onclick on a plain link.
 ```html
 <a href="https://www.example.com" target="_blank" onclick="return confirm('Processed?')">Click me</a>
